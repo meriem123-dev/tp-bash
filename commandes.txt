@@ -1,0 +1,21 @@
+PS C:\Users\pc\Documents\5GL\DevOps\tp-bash> git remote add origin https://github.com/meriem123-dev/tp-bash.git
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ mkdir logs
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ mkdir data
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ touch logs/fic1logs.log
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ ls -R logs/*.log
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ find -name *.log
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ find -mtime +7
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ grep -ri "erreur" logs/*.log
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ chmod -R go-x logs/
+
+pc@Meriem:~/Documents/5GL/DevOps/tp-bash$ ls -lh logs
+
+
