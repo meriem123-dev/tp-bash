@@ -8,5 +8,4 @@ exit 1
 else
 echo "espace suffisant"
 exit 0
-fi 
-
+fi
